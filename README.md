@@ -1,2 +1,1 @@
-# belajar-golang
-Belajar Golang
+# Belajar Golang
