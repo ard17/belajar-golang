@@ -1,0 +1,31 @@
+@baseUrl = http://localhost:3000/api
+
+### Find All Category
+GET {{baseUrl}}/categories HTTP/1.1
+X-API-Key: RAHASIA
+
+### Create Category
+POST {{baseUrl}}/categories HTTP/1.1
+X-API-Key: RAHASIA
+Content-Type: application/json
+
+{
+    "name": "Comic"
+}
+
+### Find Category by Id
+GET {{baseUrl}}/categories/4 HTTP/1.1
+X-API-Key: RAHASIA
+
+### Update Category by Id
+PUT {{baseUrl}}/categories/4 HTTP/1.1
+X-API-Key: RAHASIA
+Content-Type: application/json
+
+{
+    "name": "DRINK"
+}
+
+### Delete Category by Id
+DELETE {{baseUrl}}/categories/500 HTTP/1.1
+X-API-Key: RAHASIA
